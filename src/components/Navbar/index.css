@@ -1,0 +1,24 @@
+/* Write your CSS here */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.4em clamp(1em, 4vw, 3em);
+}
+.logo-img-container {
+  width: min(15vw, 50px);
+}
+.theme-btn {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  width: min(10vw, 35px);
+}
+.navbar * img {
+  cursor: pointer;
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: clamp(1em, 3vw, 2em);
+}
